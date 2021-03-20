@@ -1,7 +1,47 @@
-.pagina{
-    margin-left: 12%;
-    margin-right: 12%;
+  a:link, a:visited, a:hover, a:active {
+    color:#0f0;
+    font-size:16px;
+  }
+
+ul {
+    list-style-type:none;
+  }
+  #titulo{
+    color: whitesmoke;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
 }
+  #cabecera {
+    background-color: darkgreen;
+    color:#f96;
+    padding:1%;
+  }
+
+  #contenedor {
+    margin:10px auto;
+    width:80%;
+  }
+  #contenido {
+    background-color:#ddd;
+    float:left;
+    padding:2%;
+    width:71%;
+  }
+  #menu {
+    background-color:#999;
+    float:left;
+    min-width: 120px;
+    padding:2%;
+    width:21%;
+  }
+  #pie { 
+    background-color:#bbb;
+    clear:both;
+    color:#900;
+    padding:2%;
+    text-align:center;
+  }
 
 body{
     background: url(../resources/Hojas_fondo.PNG);
@@ -49,55 +89,6 @@ h2{
 
 h3{
     font-size: 25px;
-}
-
-.menu {
-    display: flex; 
-    flex-direction: row;
-    justify-content:right
-    align-items: center;
-    position: fixed;
-    width: calc(100% - 100px);
-}
-
-.menu nav {
-    width: 650px;
-    background-color: green;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    box-shadow: 2px 2px 5px 0px rgb(0 0 0 / 50%);
-}
-
-.menu nav a {
-    text-align: center;
-    width: 25%;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    font-family: Arial;
-    text-transform: uppercase;
-    color: white;
-}
-
-.menu nav a:hover {
-    background-color: #5b66a4;
-    color: #fff;
-    display: block;
-}
-
-.menu nav a:hover span {
-    display: block;
-}
-
-.menu nav a:active {
-    background-color: #fff;
-    color: #f99b1d;
 }
 
 table {
