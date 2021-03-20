@@ -6,18 +6,23 @@
         <link rel="stylesheet" href="css/index.css"/>
     </head>
     <body>
-        <div class="pagina">
+        <div class="pagina" id="inicio">
         <header>
             <h1>Moringa Oleífera</h1>
-            <div class="menu">
-                <nav>
-                    <a href="#">Descripción</a>
-                    <a href="#">Taxonomía</a>
-                    <a href="#">Análisis Químico</a>
-                    <a href="#">Usos</a>
-                </nav>
-            </div>
         </header>
+        <div class="menu">
+            <nav>
+                <a href="#inicio">Inicio</a>
+                <a href="#descripcion">Descripción</a>
+                <a href="#taxonomia">Taxonomía</a>
+                <a href="#analisis">Análisis Químico</a>
+                <a href="#usos">Usos</a>
+                <a href="#cultivar">¿Cómo cultivarla?</a>
+            </nav>
+        </div>
+        <div class="imagenini">
+            <img src="resources/Hojas.jpg" title="Foto de las Hojas de la Moringa">
+        </div>
         <p>
             Moringa oleifera, conocido como moringa o ben, 
             es una especie de árbol originario del norte de la India. 
@@ -25,7 +30,7 @@
             de elevada aridez estacional, lo que hace de esta planta 
             un recurso para las poblaciones que habitan en estos lugares.
         </p>
-        <div>
+        <div id="descripcion">
             <h2>Descripción</h2>
             <p>
                 Es un árbol caducifolio. Presenta rápido crecimiento, unos 3 m
@@ -43,7 +48,7 @@
                 rusticidad lo hace muy fácil de cultivar.
             </p>
         </div>
-        <div>
+        <div id="taxonomia">
             <h2>Taxonomía</h2>
             <p>
                 Moringa oleifera fue descrita por Jean-Baptiste Lamarck y publicado en Encyclopédie Méthodique, Botanique 1(2): 398. 1785.8​
@@ -54,7 +59,7 @@ Moringa: nombre genérico que deriva del malayo Muringa (മുരിങ്ങ).
 oleífera: epíteto, 'que produce aceite'.
             </p>
         </div>
-        <div>
+        <div id="analisis">
             <h2>Análisis Químico</h2>
             <p>
                 Cada 100 g, de vaina con semillas contienen 86,9 g de agua; 
@@ -113,7 +118,7 @@ oleífera: epíteto, 'que produce aceite'.
                     </tr>
             </table>
         </div>
-        <div>
+        <div id="usos">
             <h2>Usos</h2>
             <h3>Gastronomía</h3>
             <p>El sabor de la moringa es agradable y sus partes se pueden comer crudas, especialmente las hojas y flores (que son de color crema y aparecen principalmente en épocas de sequía, cuando el árbol suele perder las hojas) o cocidas de varias formas (por ejemplo en guisos). Las flores son ricas en carbohidratos y tienen un buen sabor. Las hojas pueden usarse para hacer jugos y tienen un gusto suavemente picante (una mezcla entre berro y rabanito). Además da fruto en forma de vainas que, estando verdes, se pueden cocer y tienen gusto parecido a las judías o chauchas, cuando están maduras se hierven con un poco de sal, se abren y se extraen las semillas ya listas para consumir, de sabor parecido al garbanzo y también se pueden tostar. Sin embargo su sabor amargo puede permanecer tiempo después del consumo. Las raíces son comestibles, parecen zanahorias pero de gusto picante.
@@ -145,7 +150,7 @@ Sus raíces se utilizan para producir un condimento
             </p>
         </div>
             
-        <div>
+        <div id="cultivar">
             <h2>¿Cómo cultivarla?</h2>
             <p>
                 Puedes empezar sembrando las semillas o también mediante esquejes.
@@ -174,7 +179,14 @@ En tan sólo 8 meses tras la siembra, el árbol de moringa ya empieza a florecer
 
 El árbol de la moringa es bastante susceptible al viento, especialmente durante sus primeros meses de crecimiento. Evita zonas con vientos fuertes para que no se dañe el tronco, las ramas, vainas y frutos.
             </p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/q7AGcAMkd2M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <iframe
+            src="https://www.youtube.com/embed/q7AGcAMkd2M" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+            </iframe>
         </div>
     </div>
     </body>

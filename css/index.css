@@ -3,18 +3,17 @@
     margin-right: 12%;
 }
 
-.pagina::after{
-    content: ""; 
-    background: url(../resources/Hojas.jpg); 
-    opacity: 0.3;
-    background-repeat: repeat-y;
-    background-size: cover;
-    top: 0; 
-    left: 0; 
-    bottom: 0; 
-    right: 0; 
-    position: absolute; 
-    z-index: -1; 
+body{
+    background: url(../resources/Hojas_fondo.PNG);
+    background-repeat: repeat;
+}
+
+.imagenini img{
+    display: block;
+    margin: auto;
+    alt: "Imagen de la Moringa";
+    width:70%; 
+    height:70%;
 }
 
 p{
@@ -44,14 +43,17 @@ h3{
 }
 
 .menu {
-    position: relative;
-    top: 0px;
+    display: flex; 
+    flex-direction: row;
+    justify-content:right
+    align-items: center;
+    position: fixed;
     width: calc(100% - 100px);
 }
 
 .menu nav {
     width: 650px;
-    background-color: #fff;
+    background-color: green;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,11 +73,7 @@ h3{
     text-decoration: none;
     font-family: Arial;
     text-transform: uppercase;
-    color: #5b66a4;
-}
-
-.menu nav a span {
-    display: none;
+    color: white;
 }
 
 .menu nav a:hover {
@@ -119,6 +117,15 @@ th, td {
 caption {
     padding: 0.3em;
     caption-side: bottom;
+}
+
+iframe{
+    width: 80%;
+    height: 550px; 
+}
+
+.video{
+    text-align: center;
 }
 
 footer {
