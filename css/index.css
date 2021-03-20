@@ -37,7 +37,7 @@ table {
 }
 
 th{
-    background-color: green;
+    background-color: blue;
     color: white;
 }
 
@@ -68,7 +68,7 @@ iframe{
 }
 a:link, a:visited, a:hover, a:active {
     color:#0f0;
-    font-size:16px;
+    font-size:20px;
 }
 
 ul {
@@ -115,4 +115,14 @@ ul {
     padding:1%;
     text-align:center;
     text-transform: uppercase;
+}
+
+#img_inicio, #img_arbol{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+#img_inicio{
+    width: 80%;
 }
